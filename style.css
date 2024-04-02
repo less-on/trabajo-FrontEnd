@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+  background-color: lightgray;
+  height: 80px;
+  position: relative;
+  width: 100%;
+  top:0;
+  left:0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 992px; */
+  margin: 0 auto;
+  margin-right: 100px;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+}
+
+.nav-link{
+  /* font-size: 50px; */
+  color:aliceblue;
+  text-decoration: none;
+}
+
+.nav-menu{
+  display:flex;
+  margin-left: 400px;
+  list-style: none;
+}
+
+.nav-menu-item{
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link:hover{
+  color: goldenrod;
+}
+
+.seccion-con-imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+
+#fondo{
+  width: 100%;
+  height: 700PX;
+  background-image: url(./images/eifel_noche.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tamano-imagen{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px; 
+  padding-bottom: 30px;
+}
+
+.resolucion-imagen{
+  flex: 1;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  padding-left: 10px;
+}
+
+.resolucion-imagen-derecha{
+  flex: 1;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.seccion-titulo{
+  background-color:lightgray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+  height: 120px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.estilo-texto-titulo{
+  text-align: center;
+  /* border: 2px solid green; */
+  color: aliceblue;
+}
+
+.background{
+  background-color:whitesmoke;
+}
+
+.contenedor{
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
+}
+
+.contenedor img{
+  margin-left: 500px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contenedor-2{
+  display: flex;
+  padding-top: 30px;
+  margin-left: 50px;
+  list-style: none;
+}
+
+.izquierda{
+  flex: 1;
+}
+
+.derecha{
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
